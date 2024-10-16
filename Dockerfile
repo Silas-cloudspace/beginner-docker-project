@@ -1,5 +1,5 @@
-# Use the official CentOS 7 base image
-FROM centos:centos7
+# Use the Centos stream9 base image
+FROM quay.io/centos/centos:stream9
 
 # Install the Apache HTTP server package from the CentOS repository
 RUN yum install httpd -y
